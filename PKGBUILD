@@ -2,7 +2,7 @@
 
 pkgname=cachyos-gnome-settings
 pkgdesc='CachyOS GNOME settings'
-pkgver=1.0.0
+pkgver=1.0.1
 pkgrel=1
 arch=('any')
 url="https://github.com/cachyos/$pkgname"
@@ -10,10 +10,12 @@ license=('GPL')
 makedepends=('coreutils')
 source=("$pkgname-$pkgver.tar.gz::$url/archive/$pkgver.tar.gz")
 sha512sums=('3c8d3e5bb0220a7e352673e3166305f934dee54fc6b4afd3271bca1c862494fd884983627099916d20e282e58142b1a3925ecb577b383d1f88f7d05143577046')
-depends=('cachyos-zsh-config'
+depends=('cachyos-fish-config'
          'nerd-fonts-fantasque-sans-mono'
          'noto-fonts'
          'ttf-fira-sans'
+         'kvantum-qt5'
+         'qt5ct'
          'gnome-autoar'
          'gnome-bluetooth-3.0'
          'gnome-calculator'
@@ -37,6 +39,7 @@ depends=('cachyos-zsh-config'
          'char-white'
          'capitaine-cursors'
          'cachyos-wallpapers'
+         'kvantum-theme-nordic-git'
          'cachyos-nord-gtk-theme-git')
 install=$pkgname.install
 provides=('cachyos-desktop-settings')
