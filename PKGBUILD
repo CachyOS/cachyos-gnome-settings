@@ -40,6 +40,9 @@ depends=('cachyos-fish-config'
          'capitaine-cursors'
          'cachyos-wallpapers'
          'kvantum-theme-nordic-git'
+         'gnome-shell-extension-dash-to-dock'
+         'gnome-shell-extension-pop-shell'
+         'gnome-shell-extension-gnome-ui-tune-git'
          'cachyos-nord-gtk-theme-git')
 install=$pkgname.install
 provides=('cachyos-desktop-settings')
