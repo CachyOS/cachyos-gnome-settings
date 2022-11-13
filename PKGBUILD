@@ -3,15 +3,15 @@
 pkgname=cachyos-gnome-settings
 pkgdesc='CachyOS GNOME settings'
 pkgver=1.0.5
-pkgrel=3
+pkgrel=4
 arch=('any')
 url="https://github.com/cachyos/$pkgname"
 license=('GPL')
 makedepends=('coreutils')
 source=("$pkgname-$pkgver.tar.gz::$url/archive/$pkgver.tar.gz")
-sha512sums=('59035361f5d3beec6d3072494bab80c802b7d056858e0fb4559f626bb481fcf80009ed3883be21245f0b6e3e8c8389da5768cf4f67c661b1217ad0d6f27cdb28')
+sha512sums=('daa77a0a31ac24be0f1e256684cb78568068777889f22388dc7732ecd416211e5e4ab08b875494a1d0d5a8834a75decc9090208f04f55d38398d79d8d7eed5f9')
 depends=('cachyos-fish-config'
-         'nerd-fonts-fira-code'
+         'ttf-firacode-nerd'
          'noto-fonts'
          'ttf-fira-sans'
          'kvantum-qt5'
