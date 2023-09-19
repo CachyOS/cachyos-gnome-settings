@@ -10,8 +10,7 @@ license=('GPL')
 makedepends=('coreutils')
 source=("$pkgname-$pkgver.tar.gz::$url/archive/$pkgver.tar.gz")
 sha512sums=('daa77a0a31ac24be0f1e256684cb78568068777889f22388dc7732ecd416211e5e4ab08b875494a1d0d5a8834a75decc9090208f04f55d38398d79d8d7eed5f9')
-depends=('cachyos-fish-config'
-         'kvantum-qt5'
+depends=('kvantum-qt5'
          'qt5ct'
          'gnome-autoar'
          'gnome-bluetooth-3.0'
