@@ -34,6 +34,7 @@ depends=('kvantum-qt5'
          'gnome-tweaks'
          'capitaine-cursors'
          'cachyos-wallpapers'
+         'gnome-backgrounds'
          'kvantum-theme-nordic-git')
 install=$pkgname.install
 provides=('cachyos-desktop-settings')
