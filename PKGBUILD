@@ -2,8 +2,8 @@
 
 pkgname=cachyos-gnome-settings
 pkgdesc='CachyOS GNOME settings'
-pkgver=1.0.5
-pkgrel=4
+pkgver=1.1.0
+pkgrel=1
 arch=('any')
 url="https://github.com/cachyos/$pkgname"
 license=('GPL')
